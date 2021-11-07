@@ -26,7 +26,7 @@ const createBoxes = () => {
     wymiary += 10;
   }
   boxes.append(...tablica);
-}
+};
 
 const destroyBoxes = () => (boxes.innerHTML = '');
 
